@@ -17,7 +17,7 @@ import EDMS from "./pages/services/EDMS";
 import EQMS from "./pages/services/EQMS";
 import QMS from "./pages/services/QRM";
 import RootcauseAnalysis from "./pages/services/RootcauseAnalysis";
-import PharmaAudit from "./pages/services/pharmaAudit";
+// import PharmaAudit from "./pages/services/pharmaAudit";
 import WarehouseMS from "./pages/services/WarehouseMS";
 import PaperlessM from "./pages/services/PaperlessM";
 import UsfdaW from "./pages/services/UsfdaW";
@@ -67,7 +67,7 @@ function App() {
           <Route path="/eqms" element={<EQMS />} />
           <Route path="/quality-risk-management" element={<QMS />} />
           <Route path="/root-cause-analysis" element={<RootcauseAnalysis />} />
-          <Route path="/pharma-audit" element={<PharmaAudit />} />
+          {/* <Route path="/pharma-audit" element={<PharmaAudit />} /> */}
           <Route path="/warehouse-management" element={<WarehouseMS />} />
           <Route path="/paperless-microbiology" element={<PaperlessM />} />
           <Route path="/usfda-warning-letter-management" element={<UsfdaW />} />
