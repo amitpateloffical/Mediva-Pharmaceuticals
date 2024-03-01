@@ -34,3 +34,11 @@
 .dropdown-content ul li:hover {
   color: rgb(222, 65, 65);
 }
+
+.logo123{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: black;
+}
