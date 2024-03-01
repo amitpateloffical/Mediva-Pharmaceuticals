@@ -637,3 +637,33 @@ h6,
 padding-left: 80px;
 
 }
+#header {
+
+  width: 100%;
+  border-bottom: 4px solid black;
+  height: 180px;
+  overflow: hidden;
+  background-image: url('https://t4.ftcdn.net/jpg/05/77/84/27/360_F_577842756_DWiS65lNLDG5DPaozrJk3c9TgkGGBwCb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#header-h1 {
+  color: white;
+  margin-top: 65px;
+  margin-left: 150px;
+  font-size: 2.5rem;
+  padding-bottom: 5px; 
+  background-image: linear-gradient(to right, red 50%, transparent 50%);
+  background-size: 19% 3px; 
+  background-position: 0 100%; 
+  background-repeat: no-repeat; 
+}
+#main-div{
+  background-image: url('https://phrma.org/-/media/Project/PhRMA/PhRMA-Org/PhRMA-Refresh/Banners/phrma_refresh_mission_min.png?w=1600&hash=393AB088749F0F52EA0A2EF13538E3EB');
+   border: 1px solid red;
+   background-size: cover;
+  width: 100%;
+  height: 800px;
+}
