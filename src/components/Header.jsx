@@ -34,7 +34,7 @@ function Header() {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark p-0 py-5">
             <Link to="/" className="navbar-brand">
-              <img style={{ height: "150px", width: "150px" , paddingTop: "40px"}} src="logomediva.png" alt="Life Link Digital" />
+              <img style={{ height: "180px", width: "150px" , paddingTop: "40px"}} src="logomediva.png" alt="Life Link Digital" />
             </Link>
             <button
               type="button"
