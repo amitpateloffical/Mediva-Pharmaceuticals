@@ -42,12 +42,9 @@ export default function GxpTrainig() {
       <BreadCrumb page="Feature" />
 
 
-<div className="Rd-section pt-5">
-  <div className="container-fluid">
-    <div className="container">
-
-    </div>
-
+<div className=" col-lg-12 Rd-section">
+  <div className="RD-img pt-2 pb-5">
+    <img src="RD.png" alt="...." style={{ height: "400px", width: "100%", paddingTop: "40px"}} />
   </div>
 </div>
 
@@ -56,15 +53,15 @@ export default function GxpTrainig() {
       <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
-            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
               <div className="abouts" data-aos="fade-right" >
-                <img className="img-fluid" src="/Doctor.jpeg" />
+                <img className="img-fluid" src="/ebmr2.jpg" />
               </div>
             </div>
-            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <h3 className="mb-4" data-aos="fade-left">Challenges of Paper-Based Systems:</h3>
-              <div className="content_container">
-                <ul className="list-group"
+            <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+              <h4 className="mb-4 " data-aos="fade-left">At Mediva, science is embedded in our ethos, as we wholeheartedly embrace Research and Development (R&D) as an essential component of our sustainable business strategy. Over the decades, we have invested strongly and strategically in cutting-edge technological advancements and innovative research activities.</h4>
+              {/* <div className="content_container"> */}
+                {/* <ul className="list-group"
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-left">
@@ -87,14 +84,34 @@ export default function GxpTrainig() {
                     <b>Scalability Issues: </b>Manual processes struggle to adapt to growth, hindering flexibility and
                     innovation.
                   </li>
-                </ul>
+                </ul> */}
+              {/* </div> */}
+              <div className="containt-data fs-5">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="container-fluid py-5">
+        <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
+          <div className="row align-items-center g-5">
+            <div className="col-lg-9  wow fadeIn" data-wow-delay="0.5s" style={{fontSize: "19px", fontWeight: "500"}}>
+            Our team thrives in an environment conducive to excellence and innovation, which is critical to advancing complex and challenging first-time combination products. The R&D team actively engages in projects from concept to Phase IV studies, as well as monitoring market acceptance and post-launch status for comprehensive insights.
+            </div>
+            <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+            <div className="h-75 w-75 " data-aos="fade-right" >
+                <img className="img-fluid  rounded" src="/ebmr2.jpg" />
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
+
       {/* ----------2nd Part---------- */}
-      <div className="container-fluid py-5">
+      {/* <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -189,10 +206,10 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------2nd Part END---------- */}
       {/* ----------3nd Part---------- */}
-      <div className="container-fluid section2  py-5">
+      {/* <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -230,9 +247,9 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------3rd Part END---------- */}
-      <div className="ps_paragraph_container mt-3 ">
+      {/* <div className="ps_paragraph_container mt-3 ">
         <h5 className="ps_paragraph" data-aos="zoom-in" >
           <b>
             By adopting AI-assisted digital solutions, pharma companies can overcome the limitations of paper-based
@@ -240,10 +257,10 @@ export default function GxpTrainig() {
             innovation.{" "}
           </b>
         </h5>
-      </div>
+      </div> */}
       {/* ----------Para End----------- */}
       {/* ----------4th Part---------- */}
-      <div className="container-fluid py-5">
+      {/* <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -279,10 +296,10 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------4th Part END---------- */}
       {/* ----------5th Part---------- */}
-      <div className="container-fluid section2  py-5">
+      {/* <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -313,10 +330,10 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------5th Part END---------- */}
       {/* ----------6th Part---------- */}
-      <div className="container-fluid py-5">
+      {/* <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -347,10 +364,10 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------6th Part END---------- */}
       {/* ----------7th Part---------- */}
-      <div className="container-fluid section2  py-5">
+      {/* <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -381,10 +398,10 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------7th Part END---------- */}
       {/* ----------8th Part---------- */}
-      <div className="container-fluid py-5">
+      {/* <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -415,17 +432,17 @@ export default function GxpTrainig() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----------8th Part END---------- */}
 
-      <div className="ps_paragraph_container m-3 ">
+      {/* <div className="ps_paragraph_container m-3 ">
         <h5 className="ps_paragraph" data-aos="zoom-in">
           <b>
             Overall, AI-assisted digital GXP solutions offer a wide range of features that can transform how life
             sciences organizations manage data, control processes, ensure compliance, and drive innovation.
           </b>
         </h5>
-      </div>
+      </div> */}
     </>
   );
 }

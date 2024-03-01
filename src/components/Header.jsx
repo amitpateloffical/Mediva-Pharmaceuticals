@@ -13,7 +13,7 @@ function Header() {
         <div className="px-5">
           <nav className="navbar navbar-expand-lg navbar-dark p-0 py-5">
             <Link to="/" className="navbar-brand">
-              <img style={{ height: "180px", width: "150px", paddingTop: "40px"}} src="logomediva.png" alt="Life Link Digital" />
+              <img style={{ height: "190px", width: "150px", paddingTop: "40px"}} src="logomediva.png" alt="Life Link Digital" />
              
             </Link>
             <Link to="/" >

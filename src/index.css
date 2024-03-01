@@ -564,14 +564,14 @@ h6,
 }
 .abouts img {
   border-radius: 15px 50px;
-  height: 550px;
-  width: 550px;
-  box-shadow: -5px -5px 9px rgba(204, 203, 203, 0.45), 5px 5px 9px rgba(85, 94, 109, 0.3);
+  height: 350px;
+  width: 500px;
+  box-shadow: -5px -5px 9px rgba(184, 184, 184, 0.45), 5px 5px 9px rgba(78, 88, 104, 0.3);
   
 }
 
 .aboutsimg img{
-  box-shadow: -5px -5px 9px rgba(204, 203, 203, 0.45), 5px 5px 9px rgba(85, 94, 109, 0.3);
+  /* box-shadow: -5px -5px 9px rgba(204, 203, 203, 0.45), 5px 5px 9px rgba(85, 94, 109, 0.3); */
   border-radius: 15px 50px;
 
 }
@@ -580,7 +580,7 @@ h6,
  
 }
 .section2 {
-  background: linear-gradient(#80ffdb, #5390d9);
+  /* background: linear-gradient(#80ffdb, #5390d9); */
 }
 #contact-form-border {
   border-bottom: 2px solid;
