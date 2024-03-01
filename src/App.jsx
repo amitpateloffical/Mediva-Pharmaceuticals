@@ -30,6 +30,10 @@ import GxpTrainig from "./pages/services/GxpTraining";
 import Rpa from "./pages/services/Rpa";
 import Industries from "./pages/Industries";
 import { useEffect } from "react";
+import BusinessAreas from "./pages/Business Areas/BusinessAreas";
+import IndiaBranded from "./pages/Business Areas/IndiaBranded";
+import EmergingMarkets from "./pages/Business Areas/EmergingMarkets";
+import UsaGenerics from "./pages/Business Areas/UsaGenerics";
 
 function App() {
       useEffect(() => {
@@ -75,6 +79,10 @@ function App() {
           <Route path="/gxp-training" element={<GxpTrainig />} />
           <Route path="/rpa" element={<Rpa />} />
           <Route path='/industries' element={<Industries />} />
+          <Route path='/businessareas' element={<BusinessAreas />} />
+          <Route path='/indiabranded' element={<IndiaBranded />} />
+          <Route path='/emergingmarkets' element={<EmergingMarkets />} />
+          <Route path='/usgenerics' element={<UsaGenerics />} />
         </Routes>
         <Footer />
       </BrowserRouter>
