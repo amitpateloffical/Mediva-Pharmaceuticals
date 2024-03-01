@@ -30,6 +30,7 @@ import GxpTrainig from "./pages/services/GxpTraining";
 import Rpa from "./pages/services/Rpa";
 import Industries from "./pages/Industries";
 import { useEffect } from "react";
+import Manufacturing from "./pages/Manufacturing";
 
 function App() {
       useEffect(() => {
@@ -74,9 +75,9 @@ function App() {
           <Route path="/intelligent-pharma" element={<IntelligentPharma />} />
           <Route path="/gxp-training" element={<GxpTrainig />} />
           <Route path="/rpa" element={<Rpa />} />
-          <Route path='/industries' element={<Industries />} />
+          <Route path='/manufacturing' element={<Manufacturing/>} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

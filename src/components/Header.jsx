@@ -90,7 +90,7 @@ function Header() {
                 </NavLink> */}
 
               
-                <NavLink to="/industries" className="nav-item nav-link">
+                <NavLink to="/manufacturing" className="nav-item nav-link">
                 Manufacturing
                 </NavLink>
                 <NavLink to="/features" className="nav-item nav-link">

@@ -42,3 +42,14 @@
   font-style: italic;
   color: black;
 }
+
+.heading-about{
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blueviolet;
+  margin-bottom: 20px;
+}
+
+.home-para{
+  font-size: 18px;
+}
