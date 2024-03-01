@@ -41,6 +41,18 @@ export default function GxpTrainig() {
     <>
       <BreadCrumb page="Feature" />
 
+
+<div className="Rd-section pt-5">
+  <div className="container-fluid">
+    <div className="container">
+
+    </div>
+
+  </div>
+</div>
+
+
+
       <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
