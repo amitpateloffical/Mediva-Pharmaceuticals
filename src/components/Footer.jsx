@@ -13,12 +13,11 @@ function Footer() {
             <div className="col-md-6 col-lg-3 wow fadeIn " data-wow-delay="0.1s">
               <a href="index.html" className="d-inline-block mb-3">
                 <h1 className="text-white">
-                  LifeLink<span className="text-primary"></span>Digital
+                Mediva <span className="text-primary"></span>Pharmaceuticals
                 </h1>
               </a>
               <p className="mb-0 style={{ fontSize: '14px' }}>">
-                Empowering Your Business with Intelligent Solutions: Harness the Power of Artificial Intelligence to
-                Optimize, Innovate, and Excel in the Digital Era.
+              "Mediva Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
               </p>
               <div className="d-flex pt-4">
                 <a className="btn btn-outline-light btn-social" href="">
@@ -35,31 +34,8 @@ function Footer() {
                 </a>
               </div>
             </div>
-            {/* <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-              <h5 className="text-white mb-1">Get In Touch</h5>
-              <p>
-                <FontAwesomeIcon icon={faSignsPost} className="me-3" />
-                Europe Office: Ellisa Tower, EH10 4BF 44/46 MORNINGSIDE ROAD, EDINBURGH
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faSignsPost} className="me-3" />
-                North America Office: North Avenue, Lincoln Square, 60625, Chicago
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faSignsPost} className="me-3" />
-                APAC Office: 87 Jalan Molek 3/1 Taman Molek, Johor Bahru, Johor, 81100, Malaysia
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faPhone} className="me-3" />
-                +91-8821836528
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faEnvelopeOpenText} className="me-3" />
-                info@lifelinkdigital.com
-              </p>
-              
-            </div> */}
-            <div className="col-md-7 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
+           
+            <div className="col-md-7 col-lg-2 wow fadeIn align-right" data-wow-delay="0.5s">
               <h5 className="text-white mb-4">Popular Link</h5>
               <Link className="btn btn-link" to="/about">
                 <FontAwesomeIcon icon={faAngleRight} />
@@ -78,54 +54,8 @@ function Footer() {
                 Features
               </Link>
             </div>
-            <div className="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
-              <h5 className="text-white mb-4">Our Services</h5>
-              <Link className="btn btn-link" to="/elogbook">
-                <FontAwesomeIcon icon={faAngleRight} />
-                elogBook
-              </Link>
-              <Link className="btn btn-link" to="/edms">
-                <FontAwesomeIcon icon={faAngleRight} />
-                EDMS
-              </Link>
-              <Link className="btn btn-link" to="/eqms">
-                <FontAwesomeIcon icon={faAngleRight} />
-                EQMS
-              </Link>
-              <Link className="btn btn-link" to="/quality-risk-management">
-                <FontAwesomeIcon icon={faAngleRight} />
-                Quality Risk Management (QRM)
-              </Link>
-              <Link className="btn btn-link" to="/paperless-microbiology">
-                <FontAwesomeIcon icon={faAngleRight} />
-                Paper Less Microbiology
-              </Link>
-            </div>
-
-            <div className="col-md-4 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-              <h5 className="text-white mb-1">Get In Touch</h5>
-              <p>
-                <FontAwesomeIcon icon={faSignsPost} className="me-3" />
-                Europe Office: Ellisa Tower, EH10 4BF 44/46 <br />          MORNINGSIDE ROAD, EDINBURGH
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faSignsPost} className="me-3" />
-                North America Office: North Avenue, Lincoln Square, 60625, Chicago
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faSignsPost} className="me-3" />
-                APAC Office: 87 Jalan Molek 3/1 Taman Molek, Johor Bahru, Johor, 81100, Malaysia
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faPhone} className="me-3" />
-                +91-8821836528
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faEnvelopeOpenText} className="me-3" />
-                info@lifelinkdigital.com
-              </p>
-              
-            </div>
+           
+           
 
           </div>
         </div>
@@ -133,7 +63,7 @@ function Footer() {
           <div className="copyright">
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-2 mb-md-0">
-                &copy; Life Link Digital, All Right Reserved.
+                &copy; Mediva Pharmaceuticals, All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
