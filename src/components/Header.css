@@ -53,3 +53,7 @@
 .home-para{
   font-size: 18px;
 }
+
+.a-index{
+  z-index: 1000;
+}

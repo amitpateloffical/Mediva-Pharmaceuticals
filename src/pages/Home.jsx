@@ -14,7 +14,7 @@ function Home() {
   }, []);
   return (
     <>
-      <div className="slider-container p-4">
+      <div className="slider-container ">
         <MySlider />
       </div>
       <div className="container-fluid p-5 hero-header mb-5 mt-4">
