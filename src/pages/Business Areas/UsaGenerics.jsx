@@ -3,6 +3,7 @@ import { useEffect, useRef, } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer';
 
 function UsaGenerics() {
     const listRefs = useRef([]);
@@ -66,7 +67,7 @@ function UsaGenerics() {
                                         <Link to="/indiabranded" data-aos="fade-right"> <button className='btn btn-warning mb-1'>India-Branding Generics</button></Link>
                                         <Link to="/emergingmarkets" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Emerging Markets - Branded Generics</button></Link>
                                         <Link to="/usgenerics" data-aos="fade-right"> <button className='btn btn-warning mb-1'>USA - Generics</button></Link>
-                                        <Link to="/" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Africa - Institution Business</button> </Link>
+                                        <Link to="/africainstitution" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Africa - Institution Business</button> </Link>
                                     </div>
                                 </div>
                             </div>
@@ -89,6 +90,7 @@ function UsaGenerics() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
