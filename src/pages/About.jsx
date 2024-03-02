@@ -50,20 +50,25 @@ function About() {
       {/* <!-- About Start --> */}
 
       <div className="container-fluid   py-3">
+      <div id='header'>
+        <h1 id='header-h1'>About us</h1>
+        </div>
+        <div id='main-div'>
+        
+</div>
         <div className="container py-4">
           <div className="row g-2 align-items-center">
             <div className="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
               <h3 className=" text-center fs-2 pt-3">
-                Lifelink Digital: Streamlining GxP Compliance for Global Pharma
+              Mediva Pharmaceuticals: Advancing Healthcare through Innovation and Excellence
               </h3>
               <div className="paragraph_container ">
                 <p className="paragraph fs-5 pt-2">
-                  Lifelink Digital is a leading global provider of GxP software
-                  solutions, empowering pharmaceutical and life sciences
-                  companies to achieve and maintain compliance efficiently. With
-                  a deep understanding of GxP regulations and industry best
-                  practices, we offer a comprehensive suite of software
-                  solutions designed to streamline:
+                Mediva Pharmaceuticals stands as a beacon of innovation and excellence in the 
+                realm of healthcare. With a steadfast commitment to advancing medical science 
+                and improving patient outcomes, Mediva spearheads groundbreaking research and development 
+                initiatives. By harnessing cutting-edge technologies and leveraging top-tier expertise, the company 
+                pioneers novel treatments for a myriad of diseases and medical conditions.
                 </p>
               </div>
               <p className="mb-4"></p>
