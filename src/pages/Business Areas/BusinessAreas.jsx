@@ -94,7 +94,7 @@ function BusinessAreas() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </>
     )
