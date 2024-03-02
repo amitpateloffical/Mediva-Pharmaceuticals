@@ -30,7 +30,7 @@ function Header() {
                 <NavLink to="/" className="nav-item nav-link">
                   Home
                 </NavLink>
-                <NavLink to="/about" className="nav-item nav-link">
+                <NavLink to="/businessareas" className="nav-item nav-link">
                  Business Area 
                 </NavLink>
 
@@ -90,14 +90,17 @@ function Header() {
                 </NavLink> */}
 
               
-                <NavLink to="/industries" className="nav-item nav-link">
+                <NavLink to="/manufacturing" className="nav-item nav-link">
                 Manufacturing
                 </NavLink>
                 <NavLink to="/features" className="nav-item nav-link">
                  R & D
                 </NavLink>
-                <NavLink to="/contact" className="nav-item nav-link">
+                <NavLink to="/about" className="nav-item nav-link">
                  About Us
+                </NavLink>
+                <NavLink to="/contact" className="nav-item nav-link">
+               Contact us
                 </NavLink>
               
               </div>

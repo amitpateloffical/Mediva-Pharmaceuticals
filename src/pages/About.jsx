@@ -50,20 +50,23 @@ function About() {
       {/* <!-- About Start --> */}
 
       <div className="container-fluid   py-3">
+      <div id='header'>
+        <h1 id='header-h1'>About us</h1>
+        </div>
+       
         <div className="container py-4">
           <div className="row g-2 align-items-center">
             <div className="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
               <h3 className=" text-center fs-2 pt-3">
-                Lifelink Digital: Streamlining GxP Compliance for Global Pharma
+              Mediva Pharmaceuticals: Advancing Healthcare through Innovation and Excellence
               </h3>
               <div className="paragraph_container ">
                 <p className="paragraph fs-5 pt-2">
-                  Lifelink Digital is a leading global provider of GxP software
-                  solutions, empowering pharmaceutical and life sciences
-                  companies to achieve and maintain compliance efficiently. With
-                  a deep understanding of GxP regulations and industry best
-                  practices, we offer a comprehensive suite of software
-                  solutions designed to streamline:
+                Mediva Pharmaceuticals stands as a beacon of innovation and excellence in the 
+                realm of healthcare. With a steadfast commitment to advancing medical science 
+                and improving patient outcomes, Mediva spearheads groundbreaking research and development 
+                initiatives. By harnessing cutting-edge technologies and leveraging top-tier expertise, the company 
+                pioneers novel treatments for a myriad of diseases and medical conditions.
                 </p>
               </div>
               <p className="mb-4"></p>
@@ -81,7 +84,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="/abouts.jpg" />
+                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2012/04/10/17/40/vitamins-26622_1280.png" />
               </div>
             </div>
             <div
@@ -97,50 +100,36 @@ function About() {
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> AI-driven insights: </b>
-                    Leverage artificial intelligence to analyze pharmaceutical
-                    data, predict trends, and optimize decision-making
-                    processes, enhancing efficiency and innovation in drug
-                    development and patient care.
+                    <b> Innovative Solutions: </b>
+                    Mediva Pharmaceuticals pioneers innovative healthcare solutions.
                   </li>
                   <li className="list-group-item" data-aos="fade-left">
-                    <b>Data integrity and quality management</b>
-                    Ensure data accuracy and traceability across your entire
-                    workflow with our data management solutions.
+                    <b> Excellence in Healthcare: </b>
+                    Committed to delivering excellence in healthcare services and products.
                   </li>
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Document management and control: </b>Simplify document
-                    creation, review, approval, and version control with our
-                    intuitive document management system.
+                    <b> Cutting-edge Research:</b> Engaged in groundbreaking research to advance medical science.
                   </li>
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Regulatory compliance: </b> Stay ahead of regulatory
-                    changes with our automated solutions for risk management,
-                    audit trails, and electronic signatures.
+                    <b> Continuous Improvement: </b>  Strives for continual improvement and evolution in healthcare practices.
                   </li>
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Quality management systems: </b>Implement and manage
-                    your QMS effectively with our integrated quality management
-                    software.
+                    <b> Industry Collaboration: </b>Actively collaborates with healthcare professionals and organizations to enhance healthcare outcomes.
                   </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b> Collaboration and communication: </b>Foster seamless
-                    collaboration across teams and departments with our secure
-                    communication and workflow management tools.
-                  </li>
+                   
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+<div></div>
       <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               <h3 className="mb-4" data-aos="fade-right">
-                By partnering with Lifelink Digital, you can:
+                By partnering with Mediva Pharmaceuticals, you can:
               </h3>
               <div className="content_container">
                 <ul
@@ -148,25 +137,17 @@ function About() {
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-right">
-                    <b> Reduce costs and improve efficiency </b>
-                    Eliminate manual processes and centralize data management
-                    for significant cost savings and increased operational
-                    efficiency.
+                    <b>   Commitment to Excellence: </b>
+                   Dedication to excellence in every aspect of healthcare provision.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    <b> Minimize risk and ensure compliance: </b>Mitigate
-                    regulatory risks and ensure consistent compliance with our
-                    validated and configurable software solutions.
+                    <b>Visionary Leadership:</b> Guided by visionary leadership committed to transforming healthcare.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    <b> Improve data quality and visibility: </b> Gain complete
-                    visibility into your data and processes for better
-                    decision-making and improved data integrity.
+                    <b>Leaders in Innovation:</b>  Recognized as leaders in driving innovation within the pharmaceutical industry.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    <b> Scale with confidence: </b>Our flexible and scalable
-                    solutions adapt to your evolving needs as your business
-                    grows.
+                    <b> Quality Assurance:</b> Ensures the highest standards of quality and safety in all pharmaceutical products.
                   </li>
                 </ul>
               </div>
@@ -176,9 +157,9 @@ function About() {
                 data-aos="fade-right"
               >
                 <h5 className="ps_paragraph">
-                  Contact Lifelink Digital today to discover how our GxP
-                  software solutions can help you achieve your compliance and
-                  quality goals
+                Contact Mediva Pharmaceuticals today to explore our innovative healthcare solutions.
+
+
                 </h5>
               </div>
             </div>
@@ -189,7 +170,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="/about4.jpg" />
+                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2018/04/13/18/22/houston-3317202_1280.jpg" />
               </div>
             </div>
           </div>
@@ -206,7 +187,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="aboutsimg">
-                <img className="img-fluid" src="/about5.jpg" />
+                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2018/07/02/19/02/dietary-supplements-3512184_960_720.jpg" />
               </div>
             </div>
 
@@ -216,16 +197,12 @@ function About() {
               </h4>
               <div className="paragraph_container" data-aos="fade-left">
                 <p className="paragraph">
-                  Lifelink Digital is committed to providing the highest quality
-                  GxP software and services to the global pharmaceutical
-                  industry. We are dedicated to exceeding our customers'
-                  expectations and ensuring that our products and services
-                  comply with all applicable regulatory requirements.
+                At Mediva Pharmaceuticals, our commitment to quality is paramount. We adhere to stringent quality policies to ensure the safety and efficacy of our products. Through rigorous testing, continuous improvement, and adherence to regulatory standards, we strive to deliver excellence in every aspect of our operations.
                 </p>
               </div>
               {" "}
               <h3 className="mb-4" data-aos="fade-left">
-                By partnering with Lifelink Digital, you can:
+                By partnering with Mediva Pharmaceuticals, you can:
               </h3>
               <div className="content_container">
                 <ul
@@ -233,34 +210,17 @@ function About() {
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Customer Focus: </b>We understand that our success
-                    depends on the success of our customers. We are committed to
-                    listening to their needs and exceeding their expectations.
+                    <b> Global Impact: </b> Mediva Pharmaceuticals strives to make a meaningful impact on a global scale by improving access to healthcare and advancing medical science.
                   </li>
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Quality by Design: </b>We build quality into our
-                    products and services from the very beginning. We use a
-                    risk-based approach to identify and mitigate potential
-                    quality problems.
+                    <b> Ethical Standards: </b> We adhere to the highest ethical standards in all aspects of our operations, ensuring transparency and integrity in our business practices.
                   </li>
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Continuous Improvement: </b>We are committed to
-                    continually improving our products, services, and processes.
-                    We use a data-driven approach to identify areas for
-                    improvement and implement effective change.
+                    <b>Community Engagement: </b> Committed to giving back to the community, Mediva Pharmaceuticals actively participates in philanthropic initiatives and supports healthcare initiatives in underserved regions.
                   </li>
 
                   <li className="list-group-item" data-aos="fade-left">
-                    <b> Regulatory Compliance: </b>We are committed to complying
-                    with all applicable GxP regulations and industry standards.
-                    We maintain a comprehensive quality management system (QMS)
-                    to ensure compliance.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b> Employee Engagement: </b>We believe that our employees
-                    are our most valuable asset. We empower our employees to
-                    take ownership of quality and provide them with the training
-                    and resources they need to be successful.
+                    <b> Sustainability: </b> We are dedicated to environmentally sustainable practices, minimizing our ecological footprint and promoting eco-friendly solutions in pharmaceutical manufacturing.
                   </li>
                 </ul>
               </div>
@@ -283,30 +243,23 @@ function About() {
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-right">
-                    Implement and maintain a documented QMS that meets the
-                    requirements of relevant GxP regulations and industry
-                    standards.
+                  Allocate resources towards research and development efforts to foster innovation and develop groundbreaking healthcare solutions.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    Conduct regular risk assessments to identify and mitigate
-                    potential quality problems.
+                  Establish robust quality management systems to ensure adherence to the highest standards of quality and safety in all pharmaceutical products and processes.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    Conduct regular training for our employees on quality
-                    principles and procedures.
+                  Promote a culture of continuous improvement within the organization, encouraging employees to identify areas for enhancement and implement innovative solutions.
                   </li>
 
                   <li className="list-group-item" data-aos="fade-right">
-                    Develop and implement quality control procedures for all of
-                    our products and services.
+                  Strengthen relationships with customers by actively seeking feedback, understanding their needs, and tailoring products and services to meet their expectations.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    Conduct regular training for our employees on quality
-                    principles and procedures.
+                  Collaborate with healthcare professionals, research institutions, and industry partners to drive innovation, share knowledge, and advance healthcare outcomes.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                    Continuously review and update our quality policy to ensure
-                    that it remains relevant and effective.
+                  Integrate sustainable practices into operations, including reducing waste, minimizing environmental impact, and promoting eco-friendly initiatives.
                   </li>
                 </ul>
               </div>
@@ -328,7 +281,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="/about6.jpg" />
+                <img className="img-fluid" src="https://images.pexels.com/photos/3825578/pexels-photo-3825578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
               </div>
             </div>
           </div>
@@ -344,7 +297,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="/systemmanagement.jpeg" />
+                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2016/11/23/15/14/jars-1853439_1280.jpg" />
               </div>
             </div>
 
@@ -354,10 +307,7 @@ function About() {
               </h4>
               <div className="paragraph_container" data-aos="fade-left">
                 <p className="paragraph">
-                  At Lifelink Digital, we empower the global pharmaceutical
-                  industry to achieve GxP compliance and accelerate life-saving
-                  innovations with intuitive, secure, and scalable software
-                  solutions.
+                "At Mediva Pharmaceuticals, our mission is to pioneer innovative healthcare solutions that enhance patient well-being and advance medical science. With a commitment to excellence in healthcare services and products, we strive to deliver cutting-edge research, adhere to the highest standards of quality assurance.
                 </p>
               </div>
               <h3 className="mb-4" data-aos="fade-left">
@@ -400,118 +350,7 @@ function About() {
         </div>
       </div>
 
-      <div className="container-fluid py-5">
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div
-              className="col-lg-6 wow fadeIn"
-              data-wow-delay="0.5s"
-              data-aos="fade-right"
-            >
-              <h3 className="mb-4">
-                We strive to be the trusted partner for pharmaceutical companies
-                worldwide, enabling them to:
-              </h3>
-              <div className="content_container">
-                <ul
-                  className="list-group"
-                  ref={(ref) => listRefs.current.push(ref)}
-                >
-                  <li className="list-group-item" data-aos="fade-left">
-                    Streamline regulatory compliance processes, saving time and
-                    resources.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    Improve data quality and integrity, ensuring regulatory
-                    adherence.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    Enhance collaboration and communication across teams and
-                    geographies.
-                  </li>
-
-                  <li className="list-group-item" data-aos="fade-left">
-                    Accelerate research and development timelines, bringing
-                    life-saving innovations to market faster.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    Gain invaluable insights from data to optimize operations
-                    and decision-making.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-6 wow fadeIn"
-              data-aos="fade-left"
-              data-wow-delay="0.1s"
-            >
-              <div className="abouts">
-                <img className="img-fluid" src="/System.jpeg" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-fluid section2 py-5">
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div
-              className="col-lg-6 wow fadeIn"
-              data-aos="fade-right"
-              data-wow-delay="0.1s"
-            >
-              <div className="abouts">
-                <img className="img-fluid" src="/medicine.jpeg" />
-              </div>
-            </div>
-
-            <div
-              className="col-lg-6 wow fadeIn"
-              data-aos="fade-left"
-              data-wow-delay="0.5s"
-            >
-              <div className="paragraph_container">
-                <p className="paragraph">
-                  Ultimately, at Lifelink Digital, we believe in the power of
-                  technology to transform the pharmaceutical industry and
-                  improve the lives of patients everywhere.
-                </p>
-              </div>
-              <h3 className="mb-4" data-aos="fade-left">
-                {" "}
-                  This mission statement reflects our commitment to:
-              </h3>
-              <div className="content_container">
-                <ul
-                  className="list-group"
-                  ref={(ref) => listRefs.current.push(ref)}
-                >
-                  <li className="list-group-item" data-aos="fade-left">
-                    Being a leader in GxP software solutions.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    Using AI to achieve true Industry 4.0
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    Turning data into wisdom
-                  </li>
-
-                  <li className="list-group-item" data-aos="fade-left">
-                    Making a positive impact on the world.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    Building a culture of innovation, collaboration, and
-                    excellence.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </>
   );
 }
