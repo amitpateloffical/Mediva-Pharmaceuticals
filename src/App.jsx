@@ -44,7 +44,7 @@ function App() {
           <Route path='/manufacturing' element={<Manufacturing />} />
           <Route path='/africainstitution' element={<AfricaInstitution />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </>
   );

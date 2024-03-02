@@ -1,9 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faAngleRight,  } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
+  const navigate = useNavigate();
+  const handleClick = (to) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate(to);
+  };
+  
   return (
     <>
       {/* <!-- Footer Start --> */}
@@ -37,21 +43,24 @@ function Footer() {
            
             <div className="col-md-7 col-lg-2 wow fadeIn align-right" data-wow-delay="0.5s">
               <h5 className="text-white mb-4">Popular Link</h5>
-              <Link className="btn btn-link" to="/about">
+              
+              <Link onClick={() => handleClick('/about')} className="btn btn-link" to="/about">
                 <FontAwesomeIcon icon={faAngleRight} />
                 About Us
               </Link>
-              <Link className="btn btn-link" to="/contact">
+            
+              
+              <Link onClick={() => handleClick('/contact')} className="btn btn-link" to="/contact" >
                 <FontAwesomeIcon icon={faAngleRight} />
                 Contact Us
               </Link>
-              <Link className="btn btn-link" to="/industries">
+              <Link onClick={() => handleClick('/manufacturing')}  className="btn btn-link" to="/manufacturing">
                 <FontAwesomeIcon icon={faAngleRight} />
-                Industries
+                Manufacturing
               </Link>
-              <Link className="btn btn-link" to="/features">
+              <Link onClick={() => handleClick('/features')} className="btn btn-link" to="/features">
                 <FontAwesomeIcon icon={faAngleRight} />
-                Features
+             R&d
               </Link>
             </div>
            
