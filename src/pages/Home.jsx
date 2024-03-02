@@ -16,6 +16,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "../components/Footer";
 // import Swiper from "../components/Swiper";
 function Home() {
   const navigate = useNavigate();
@@ -137,7 +138,7 @@ function Home() {
                 of medical science and improving access to healthcare for all."</p>
 
             </div>
-            <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
+            <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="fade-right">
 
               <img className="img-fluid" height={"344px"}  width={"612px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVdBgChoX8FO4cd2EFWKcB8FCPKMVjYSr4g&usqp=CAU" />
 
@@ -449,7 +450,7 @@ function Home() {
           </div>
         </div>
       </div> */}
-
+<Footer/>
     </>
   );
 }
@@ -857,6 +858,7 @@ export default Home;
         </div>
       </div> */
 }
+
 {
   /* <!-- About End --> */
 }

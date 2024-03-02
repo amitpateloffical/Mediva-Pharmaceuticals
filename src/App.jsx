@@ -34,6 +34,7 @@ import BusinessAreas from "./pages/Business Areas/BusinessAreas";
 import IndiaBranded from "./pages/Business Areas/IndiaBranded";
 import EmergingMarkets from "./pages/Business Areas/EmergingMarkets";
 import UsaGenerics from "./pages/Business Areas/UsaGenerics";
+import Manufacturing from "./pages/Manufacturing";
 
 function App() {
       useEffect(() => {
@@ -55,34 +56,36 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/*" element={<PageNotFound />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/features" element={<Feature />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/software-development" element={<SoftwareDevelopement />} />
-          <Route path="/elogbook" element={<ElogBook />} />
+          <Route path="/contact" element={<Contact />} />
+          
+        {/*   <Route path="/services" element={<Services />} />
+          <Route path="/software-development" element={<SoftwareDevelopement />} /> */}
+          {/* <Route path="/elogbook" element={<ElogBook />} />
           <Route path="/lms" element={<LMS />} />
           <Route path="/mes" element={<MES />} />
           <Route path="/ebmr" element={<EBMR1 />} />
           <Route path="/edms" element={<EDMS />} />
           <Route path="/eqms" element={<EQMS />} />
           <Route path="/quality-risk-management" element={<QMS />} />
-          <Route path="/root-cause-analysis" element={<RootcauseAnalysis />} />
+          <Route path="/root-cause-analysis" element={<RootcauseAnalysis />} /> */}
           {/* <Route path="/pharma-audit" element={<PharmaAudit />} /> */}
-          <Route path="/warehouse-management" element={<WarehouseMS />} />
+          {/* <Route path="/warehouse-management" element={<WarehouseMS />} />
           <Route path="/paperless-microbiology" element={<PaperlessM />} />
           <Route path="/usfda-warning-letter-management" element={<UsfdaW />} />
           <Route path="/merger-and-acquisition" element={<MergerAndAcquisition />} />
           <Route path="/ai-assited-pharma" element={<AiAssistedPharma />} />
           <Route path="/ai-assited-culture-of-quality" element={<AiAssistedCultureOfQuality />} />
-          <Route path="/connected-and-integrated-gxp-systems" element={<GxpSystems />} />
-          <Route path="/intelligent-pharma" element={<IntelligentPharma />} />
-          <Route path="/gxp-training" element={<GxpTrainig />} />
-          <Route path="/rpa" element={<Rpa />} />
-          <Route path='/industries' element={<Industries />} />
+          <Route path="/connected-and-integrated-gxp-systems" element={<GxpSystems />} /> */}
+          {/* <Route path="/intelligent-pharma" element={<IntelligentPharma />} /> */}
+          {/* <Route path="/gxp-training" element={<GxpTrainig />} /> */}
+          {/* <Route path="/rpa" element={<Rpa />} /> */}
+          {/* <Route path='/industries' element={<Industries />} /> */}
           <Route path='/businessareas' element={<BusinessAreas />} />
-          <Route path='/indiabranded' element={<IndiaBranded />} />
-          <Route path='/emergingmarkets' element={<EmergingMarkets />} />
-          <Route path='/usgenerics' element={<UsaGenerics />} />
+          {/* <Route path='/indiabranded' element={<IndiaBranded />} /> */}
+          {/* <Route path='/emergingmarkets' element={<EmergingMarkets />} /> */}
+          {/* <Route path='/usgenerics' element={<UsaGenerics />} /> */}
+          <Route path='/manufacturing' element={<Manufacturing/>}/>
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

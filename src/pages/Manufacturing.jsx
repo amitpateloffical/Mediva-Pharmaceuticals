@@ -3,9 +3,30 @@ import "./Home.css";
 const Manufacturing = () => {
     return (
         <div className=''>
-       <div className='Manufacturing-head'>   
+             <section className="innerBanner">
+                    <picture>
+                        <img
+                            className="responsive-image"
+                            src="https://ajantapharma.com/assets/frontend/images/inner_banner/business_areas.jpg"
+                            alt="Business Areas"
+                            style={{ maxWidth: '100%' }}
+                        />
+
+                    </picture>
+
+                    <div className="container">
+                        <div className="innerpageTitle">
+                            <div className="row h-100">
+                                <div className="col-md-6 align-self-center aos-init aos-animate" >
+                                    <h1 data-aos="fade-right">Manufacturing</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+       {/* <div className='Manufacturing-head'>   
          <h1 className='manufacturing-heading'>Manufacturing</h1>
-     </div>
+     </div> */}
 
      <div className="container-fluid p-5 hero-header mb-5 mt-4">
         <div >
