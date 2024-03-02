@@ -17,7 +17,7 @@ import EDMS from "./pages/services/EDMS";
 import EQMS from "./pages/services/EQMS";
 import QMS from "./pages/services/QRM";
 import RootcauseAnalysis from "./pages/services/RootcauseAnalysis";
-import PharmaAudit from "./pages/services/pharmaAudit";
+// import PharmaAudit from "./pages/services/pharmaAudit";
 import WarehouseMS from "./pages/services/WarehouseMS";
 import PaperlessM from "./pages/services/PaperlessM";
 import UsfdaW from "./pages/services/UsfdaW";
@@ -30,7 +30,10 @@ import GxpTrainig from "./pages/services/GxpTraining";
 import Rpa from "./pages/services/Rpa";
 import Industries from "./pages/Industries";
 import { useEffect } from "react";
-import Manufacturing from "./pages/Manufacturing";
+import BusinessAreas from "./pages/Business Areas/BusinessAreas";
+import IndiaBranded from "./pages/Business Areas/IndiaBranded";
+import EmergingMarkets from "./pages/Business Areas/EmergingMarkets";
+import UsaGenerics from "./pages/Business Areas/UsaGenerics";
 
 function App() {
       useEffect(() => {
@@ -64,7 +67,7 @@ function App() {
           <Route path="/eqms" element={<EQMS />} />
           <Route path="/quality-risk-management" element={<QMS />} />
           <Route path="/root-cause-analysis" element={<RootcauseAnalysis />} />
-          <Route path="/pharma-audit" element={<PharmaAudit />} />
+          {/* <Route path="/pharma-audit" element={<PharmaAudit />} /> */}
           <Route path="/warehouse-management" element={<WarehouseMS />} />
           <Route path="/paperless-microbiology" element={<PaperlessM />} />
           <Route path="/usfda-warning-letter-management" element={<UsfdaW />} />
@@ -75,7 +78,11 @@ function App() {
           <Route path="/intelligent-pharma" element={<IntelligentPharma />} />
           <Route path="/gxp-training" element={<GxpTrainig />} />
           <Route path="/rpa" element={<Rpa />} />
-          <Route path='/manufacturing' element={<Manufacturing/>} />
+          <Route path='/industries' element={<Industries />} />
+          <Route path='/businessareas' element={<BusinessAreas />} />
+          <Route path='/indiabranded' element={<IndiaBranded />} />
+          <Route path='/emergingmarkets' element={<EmergingMarkets />} />
+          <Route path='/usgenerics' element={<UsaGenerics />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
