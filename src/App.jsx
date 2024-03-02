@@ -67,7 +67,6 @@ function App() {
           <Route path="/eqms" element={<EQMS />} />
           <Route path="/quality-risk-management" element={<QMS />} />
           <Route path="/root-cause-analysis" element={<RootcauseAnalysis />} />
-          {/* <Route path="/pharma-audit" element={<PharmaAudit />} /> */}
           <Route path="/warehouse-management" element={<WarehouseMS />} />
           <Route path="/paperless-microbiology" element={<PaperlessM />} />
           <Route path="/usfda-warning-letter-management" element={<UsfdaW />} />

@@ -66,10 +66,10 @@ function EmergingMarkets() {
                             <div className="container mt-5">
                                 <div className="card p-4 bg-light">
                                     <div className='d-flex flex-column align-items-start'>
-                                        <Link to="/" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Overview</button></Link>
-                                        <Link to="/" data-aos="fade-right"> <button className='btn btn-warning mb-1'>India-Branding Generics</button></Link>
-                                        <Link to="/" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Emerging Markets - Branded Generics</button></Link>
-                                        <Link to="/" data-aos="fade-right"> <button className='btn btn-warning mb-1'>USA - Generics</button></Link>
+                                        <Link to="/businessareas" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Overview</button></Link>
+                                        <Link to="/indiabranded" data-aos="fade-right"> <button className='btn btn-warning mb-1'>India-Branding Generics</button></Link>
+                                        <Link to="/emergingmarkets" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Emerging Markets - Branded Generics</button></Link>
+                                        <Link to="/usgenerics" data-aos="fade-right"> <button className='btn btn-warning mb-1'>USA - Generics</button></Link>
                                         <Link to="/" data-aos="fade-right"> <button className='btn btn-warning mb-1'>Africa - Institution Business</button> </Link>
                                     </div>
                                 </div>
