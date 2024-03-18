@@ -40,7 +40,8 @@ function Footer() {
                 </a>
               </div>
             </div>
-           
+
+
             <div className="col-md-7 col-lg-2 wow fadeIn align-right" data-wow-delay="0.5s">
               <h5 className="text-white mb-4">Popular Link</h5>
               
@@ -62,6 +63,8 @@ function Footer() {
                 <FontAwesomeIcon icon={faAngleRight} />
              R&d
               </Link>
+              <a href="">info@MedivaPharma.in</a>
+              <div className="py-2">Address: Sun city, Rustenburg,0316, South Africa</div>
             </div>
            
            

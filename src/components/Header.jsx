@@ -45,7 +45,7 @@ function Header() {
                 >
                   <div className="dropdown">
                     <div>
-                      Business Area &nbsp;
+                    Area of Expertise &nbsp;
                       <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path
                           fill="currentColor"
@@ -68,16 +68,16 @@ function Header() {
 
 
                 <NavLink to="/manufacturing" className="nav-item nav-link">
-                  Manufacturing
+                Building
                 </NavLink>
                 <NavLink to="/features" className="nav-item nav-link">
-                  R & D
+                Technological Research
                 </NavLink>
                 <NavLink to="/about" className="nav-item nav-link">
-                  About Us
+                Company Profile
                 </NavLink>
                 <NavLink to="/contact" className="nav-item nav-link">
-                  Contact us
+                Connect With Us
                 </NavLink>
 
               </div>
